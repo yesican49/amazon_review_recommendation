@@ -6,10 +6,10 @@ Stopwords: remove those unhelpful words like i, me, etc.
 
 Index_dict: index dictionary to give unique index to each shingle
 
-##Main Idea: 
+## Main Idea: 
 Using Min-hashing and locality sensitive hashing to find the approximate nearest neighbors 
 
-##Procedure:
+## Procedure:
 1. keep reviewerID and reviewText columns of dataframe.
 2. remove any punctuation marks, stop words(stop-words list), and converting the text to lower case.
 3. remove the empty review or the review only containing stop word and punctuations.
